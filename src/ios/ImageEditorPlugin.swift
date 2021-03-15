@@ -71,7 +71,7 @@ import OSPhotoEditor
         }*/
         
         //To hide controls - array of enum control
-        //photoEditor.hiddenControls = [.crop, .draw, .share]
+        photoEditor.hiddenControls = [.share]
         
         self.viewController.present(photoEditor, animated: true, completion: nil)
     }
